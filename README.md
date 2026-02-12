@@ -28,7 +28,7 @@ Este proyecto desarrolla un modelo predictivo capaz de estimar el riesgo de diab
 - **CatBoost**
 - **SHAP**
 - **SMOTENC**
-- **Gradio / Streamlit** (interfaz de usuario)
+- **TK/Tkinter** (interfaz de usuario)
 - **Matplotlib / Seaborn** (visualización)
 
 ------
