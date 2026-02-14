@@ -91,7 +91,7 @@ Desde la carpeta principal:
 python appGUI_diabetes.py
 ```
 
-La aplicación se abrirá en tu navegador y permitirá introducir las cinco variables clave para obtener una predicción inmediata del riesgo de DM2.
+La aplicación se abrirá mostrando un formulario que permitirá introducir las cinco variables clave para obtener una predicción inmediata del riesgo de DM2.
 
 ------
 
