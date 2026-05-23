@@ -21,7 +21,7 @@ pip install pandas xport
 Ejecución del guión desde la terminal o un entorno Python:
 
 ```bash
-python xpt_to_csv.py
+python xpt_to_csv_v2.py
 ```
 
 Esto realizará:
