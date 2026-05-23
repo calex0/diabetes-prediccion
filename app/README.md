@@ -1,15 +1,21 @@
-- Cómo activar el entorno de la app:
+# Crear el entorno en la carpeta correcta
 
-  ```
-  source app_diabetes_env/bin/activate
-  ```
+Desde:
 
-  
+```
+cd ~/diabetes-prediccion-main/app
+```
 
-- Cómo instalar requirements:
+Crea el entorno:
 
-  ```
-  pip install -r requirements.txt
-  ```
+```bash
+python3 -m venv app_diabetes_env
+```
 
-  
+Actívalo:
+
+```bash
+source app_diabetes_env/bin/activate
+```
+
+------
