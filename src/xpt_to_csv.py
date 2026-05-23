@@ -1,14 +1,10 @@
-# xport example.xpt > example.csv
+import pyreadstat
 
-import pandas as pd
-import xport
-
-# Cargar el archivo XPT
-with open("LLCP2014.XPT", "rb") as file:
-    dataset = xport.to_dataframe(file)
+# Leer archivo XPT con codificación robusta
+df, meta = pyreadstat.read_xport("LLCP2014.XPT", encoding="latin1")
 
 # Guardar como CSV
-dataset.to_csv("LLCP2014.csv", index=False)
+df.to_csv("LLCP2014.csv", index=False)
 
-print("Conversión completada: LLCP2014.csv generado.")
+print("Conversión completada.")
 
