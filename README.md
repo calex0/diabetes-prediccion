@@ -10,6 +10,12 @@ Este proyecto desarrolla un modelo predictivo capaz de estimar el riesgo de diab
 
 ------
 
+## Project Summary
+
+This project develops a predictive model capable of estimating the risk of type 2 diabetes mellitus (T2DM) using non-invasive data from the 2014 BRFSS public health survey (CDC, USA). After a comprehensive data mining process, an optimized CatBoost model was trained, and the five most influential variables were selected using SHAP. Finally, the model was integrated into an interactive application that allows for quick and accessible screening of T2DM risk.
+
+------
+
 ## Objetivos del TFG
 
 - Analizar y preparar el conjunto de datos BRFSS 2014.

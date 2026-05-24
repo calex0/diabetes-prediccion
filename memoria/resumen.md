@@ -14,5 +14,19 @@ Al modelo CatBoost se le aplicó SHAP, un método de interpretabilidad que permi
 
 Los resultados muestran que el riesgo de diabetes depende no solo de parámetros clínicos, sino también de hábitos de vida, acceso a la atención sanitaria y factores demográficos. El modelo final ofrece una herramienta accesible y eficiente para la detección temprana, especialmente útil en contextos donde no se dispone de pruebas diagnósticas inmediatas.
 
+------
 
+#### Predicting Type 2 Diabetes from a Telephone Survey
+
+February 11, 2026
+
+#### Abstract
+
+Type 2 diabetes mellitus (T2DM) is a highly prevalent chronic disease whose delayed diagnosis increases both clinical complications and associated healthcare costs. Traditional screening methods, based on blood tests, can be expensive or inaccessible to the general population. In this context, the objective of this work is to develop a predictive model capable of identifying the risk of T2DM early using exclusively data from public health telephone surveys, specifically the 2014 BRFSS dataset from the CDC (USA).
+
+The project follows a comprehensive data mining and machine learning methodology. After cleaning and transforming the original dataset, techniques were applied to mitigate biases, and dimensionality reduction was performed using Recursive Feature Elimination (RFE), selecting the variables with the greatest predictive capacity. To correct for class imbalance, the SMOTENC oversampling technique was used. Subsequently, two supervised classification models—Logistic Regression and CatBoost—were trained and evaluated using metrics such as accuracy, sensitivity, specificity, and AUC-ROC.
+
+The CatBoost model was subjected to SHAP, an interpretability method that identifies the contribution of each variable to the predictions. Based on this analysis, the five most influential variables were selected and integrated into an interactive application designed for rapid and cost-effective screening of type 2 diabetes risk.
+
+The results show that diabetes risk depends not only on clinical parameters but also on lifestyle habits, access to healthcare, and demographic factors. The final model offers an accessible and efficient tool for early detection, particularly useful in contexts where immediate diagnostic tests are unavailable.
 

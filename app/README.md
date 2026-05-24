@@ -1,5 +1,5 @@
-# Crear el entorno en la carpeta correcta
 
+## Crear el entorno en la carpeta correcta
 Desde:
 
 ```
@@ -11,11 +11,8 @@ Crea el entorno:
 ```bash
 python3 -m venv app_diabetes_env
 ```
-
 Actívalo:
 
 ```bash
 source app_diabetes_env/bin/activate
 ```
-
-------
