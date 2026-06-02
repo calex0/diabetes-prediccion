@@ -29,7 +29,7 @@ This project develops a predictive model capable of estimating the risk of type 
 
 ## Tecnologías utilizadas
 
-- **Python 3.x**
+- **Python 3.9**
 - **Pandas, NumPy, Scikit‑learn**
 - **CatBoost**
 - **SHAP**
@@ -91,10 +91,42 @@ This project develops a predictive model capable of estimating the risk of type 
 
 ## Cómo ejecutar la aplicación de cribado
 
-Desde la carpeta principal:
+Fichero requirements.txt mínimo (con las las dependencias mínimas):
 
 ```
-python appGUI_diabetes.py
+aif360==0.6.1
+catboost==1.2.7
+graphviz==0.21
+matplotlib==3.9.4
+numpy==1.26.4
+pandas==1.5.3
+plotly==6.4.0
+pyreadstat==1.3.5
+scikit-learn==1.2.2
+scipy==1.13.1
+seaborn==0.13.2
+xgboost==2.1.4
+
+```
+
+
+
+Esta versión:
+
+    - Funciona en Python 3.9
+    
+    - Es CPU‑only
+    
+    - No incluye dependencias internas
+    
+    - No incluye paquetes de NVIDIA
+    
+    - Es reproducible y limpia
+
+Desde la carpeta principal de un entorno virtual de python (versión 3.9):
+
+```
+python3 appGUI_diabetes.py
 ```
 
 La aplicación se abrirá mostrando un formulario que permitirá introducir las cinco variables clave para obtener una predicción inmediata del riesgo de DM2.
