@@ -6,22 +6,21 @@
 
 ## Resumen del proyecto
 
-Este proyecto desarrolla un modelo predictivo capaz de estimar el riesgo de diabetes mellitus tipo 2 (DM2) utilizando datos no invasivos procedentes de la encuesta de salud pública BRFSS 2014 (CDC, EE. UU.). Tras un proceso completo de minería de datos, se entrenó un modelo CatBoost optimizado y se seleccionaron las cinco variables más influyentes mediante SHAP. Finalmente, el modelo se integró en una aplicación interactiva que permite realizar un cribado rápido y accesible del riesgo de DM2.
+Este proyecto desarrolla un modelo predictivo capaz de estimar el riesgo de diabetes mellitus tipo 2 (DM2) utilizando datos no invasivos procedentes de la encuesta de salud pública BRFSS 2014 (CDC, EE. UU.). Tras un proceso completo de minería de datos, se entrenó un modelo de regresión logística y se seleccionaron varias varibles mediante RFE. Finalmente, el modelo se integró en una aplicación interactiva que permite realizar un cribado rápido (screening) accesible del riesgo de DM2.
 
 ------
 
 ## Project Summary
 
-This project develops a predictive model capable of estimating the risk of type 2 diabetes mellitus (T2DM) using non-invasive data from the 2014 BRFSS public health survey (CDC, USA). After a comprehensive data mining process, an optimized CatBoost model was trained, and the five most influential variables were selected using SHAP. Finally, the model was integrated into an interactive application that allows for quick and accessible screening of T2DM risk.
-
+This project develops a predictive model capable of estimating the risk of type 2 diabetes mellitus (T2DM) using non-invasive data from the 2014 BRFSS public health survey (CDC, USA). After a comprehensive data mining process, a logistic regression model was trained, and several variables were selected using RFE. Finally, the model was integrated into an interactive application that allows for accessible, rapid screening of T2DM risk.
 ------
 
 ## Objetivos del TFG
 
 - Analizar y preparar el conjunto de datos BRFSS 2014.
 - Mitigar sesgos y corregir el desequilibrio de clases.
-- Seleccionar las variables más relevantes mediante RFE y SHAP.
-- Entrenar y evaluar modelos de clasificación (Regresión Logística y CatBoost).
+- Seleccionar las variables más relevantes mediante RFE.
+- Entrenar y evaluar modelos de clasificación (Regresión Logística).
 - Desarrollar una aplicación interactiva para el cribado del riesgo de DM2.
 - Interpretar los resultados desde una perspectiva clínica y de salud pública.
 
@@ -31,7 +30,6 @@ This project develops a predictive model capable of estimating the risk of type 
 
 - **Python 3.9**
 - **Pandas, NumPy, Scikit‑learn**
-- **CatBoost**
 - **SHAP**
 - **SMOTENC**
 - **TK/Tkinter** (interfaz de usuario)
@@ -85,8 +83,7 @@ This project develops a predictive model capable of estimating the risk of type 
 3. Ejecuta los notebooks en orden:
 
    - 01-preprocesado_Fairnes_RFE_logistica.ipynb
-   - 02_catboost_SHAP.ipynb
-
+   
 ------
 
 ## Cómo ejecutar la aplicación de cribado
