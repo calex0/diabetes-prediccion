@@ -43,26 +43,26 @@ This project develops a predictive model capable of estimating the risk of type 
 
 ```
 ├── app
-│   ├── appGUI_diabetes.py
+│   ├── predecir_diabetes_rl_3.py
 │   ├── modelosSHAP
-│   │   ├── columnas_cb.pkl
-│   │   └── modelo_cb.pkl
+│   |── columnas_rl.pkl
+│   |── modelo_rl.pkl
 │   └── README.md
 ├── data
 │   ├── DatasetLink.md
 │   └── README.md
 ├── memoria
 │   ├── memoria_TFG.pdf
-│   └── resumen.md
+│   └── resumen_memoria.md
 ├── notebooks
 │   ├── 01-preprocesado_Fairnes_RFE_logistica.html
 │   ├── 01-preprocesado_Fairnes_RFE_logistica.ipynb
-│   ├── 02-catboost_SHAP.html
-│   └── 02_catboost_SHAP.ipynb
+│   
 ├── README.md
 ├── requirements.txt
 └── src
-    └── xpt_to_csv.py
+    └── xpt_to_csv-v2.py
+
 
 ```
 
