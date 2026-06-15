@@ -2,7 +2,7 @@
 
 ## **Crear un entorno con Python 3.9**
 
-CatBoost funciona perfecto en:
+Regresión logística:
 
 - Ubuntu 22.04
 - Python 3.9
