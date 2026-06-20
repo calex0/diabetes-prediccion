@@ -6,7 +6,7 @@
 
 ## Resumen del proyecto
 
-Este proyecto desarrolla un modelo predictivo capaz de estimar el riesgo de diabetes mellitus tipo 2 (DM2) utilizando datos no invasivos procedentes de la encuesta de salud pública BRFSS 2014 (CDC, EE. UU.). Tras un proceso completo de minería de datos, se entrenó un modelo de regresión logística y se seleccionaron varias varibles mediante RFE. Finalmente, el modelo se integró en una aplicación interactiva que permite realizar un cribado rápido (screening) accesible del riesgo de DM2.
+Este proyecto desarrolla un modelo predictivo capaz de estimar el riesgo de diabetes mellitus tipo 2 (DM2) utilizando datos no invasivos procedentes de la encuesta de salud pública BRFSS 2014 (CDC, EE. UU.). Tras un proceso completo de minería de datos, se entrenó un modelo de regresión logística y se seleccionaron varias variables mediante RFE. Finalmente, el modelo se integró en una aplicación interactiva que permite realizar un cribado rápido (screening) accesible del riesgo de DM2.
 
 ------
 
