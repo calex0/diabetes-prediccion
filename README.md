@@ -18,9 +18,10 @@ This project develops a predictive model capable of estimating the risk of type 
 ## Objetivos del TFG
 
 - Analizar y preparar el conjunto de datos BRFSS 2014.
-- Mitigar sesgos y corregir el desequilibrio de clases.
+- Corregir el desequilibrio de clases.
 - Seleccionar las variables más relevantes mediante RFE.
-- Entrenar y evaluar modelos de clasificación (Regresión Logística).
+- Mitigar sesgos.
+- Entrenar y evaluar un modelo de clasificación (Regresión Logística).
 - Desarrollar una aplicación interactiva para el cribado del riesgo de DM2.
 - Interpretar los resultados desde una perspectiva clínica y de salud pública.
 
