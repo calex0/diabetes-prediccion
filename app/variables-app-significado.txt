@@ -1,0 +1,12 @@
+Variable    Descripción
+
+CTELENUM    Número de teléfonos en el hogar.
+ASBIRDUC    Consumo de bebidas dietéticas.
+WTCHSALT    Evita la sal en las comidas.
+SCNTMEL1    Frecuencia de sentirse solo.
+CTELNUM1    Uso del teléfono celular.
+_RFHLTH     Estado general de salud percibida.
+RACEG21     Categoría racial / étnica.
+_AGE_G      Grupo de edad.
+_BMI5CAT    Categoría de IMC (Índice de Masa Corporal).
+
