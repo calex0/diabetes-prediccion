@@ -1,0 +1,1 @@
+source app_diabetes_env39/bin/activate
